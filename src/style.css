@@ -12,3 +12,16 @@ html {
   box-sizing: inherit;
 }
 /* stylelint-enable */
+
+body {
+  background-color: var(--colorBackground);
+  font-family: var(--font);
+  color: var(--colorText);
+}
+
+@media only screen and (max-width: 375px) {
+
+}
+
+@media only screen and (max-width: 835px) {
+}
