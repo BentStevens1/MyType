@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="container">
-      <header><h1 class="pagetitle">Webpack - PHP - Template</h1></header>
+      <header></header>
       <?php echo $content;?>
   </div>
   <?php echo $js; ?>
