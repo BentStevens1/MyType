@@ -1,6 +1,7 @@
 :root {
   --colorHighlight: #ff9300;
   --colorText: white;
+  --colorBackground: #181818;
   --fontSmall: 1rem; /* 16px */
   --font: 'Poppins';
 }
