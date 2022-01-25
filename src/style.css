@@ -85,11 +85,14 @@ body {
   }
 
   .header__text {
-    max-width: 19rem;
     margin: auto;
     padding-top: 2rem;
     text-align: center;
-    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: var(--font);
+    line-height: 1.6rem;
+    padding-left: var(--mobileSpacer);
+    max-width: 22rem;
   }
 
   .header__slanted {
@@ -108,12 +111,20 @@ body {
     border-bottom: solid .2rem white;
   }
 
-  .intro__title {
+  .intro__title-mobile {
     font-family: adobe-caslon-pro, serif;
     font-weight: 700;
     font-style: italic;
     font-size: 1.5rem;
     padding-left: var(--mobileSpacer);
+  }
+
+  .img__william {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 30rem;
+    padding: 2rem;
   }
 
   .intro__text {
@@ -163,6 +174,14 @@ body {
     padding-bottom: 1rem;
   }
 
+  .img__guns {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 30rem;
+    padding: 2rem;
+  }
+
   .quote {
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -178,6 +197,13 @@ body {
 
   .part__2 {
     margin-bottom: 10rem;
+    padding-top: 2rem;
+    overflow: hidden;
+  }
+
+  .chapter__2-container {
+    position: relative;
+    z-index: 1;
   }
 
   .chapter__2 {
@@ -193,6 +219,72 @@ body {
     padding-bottom: 2rem;
   }
 
+  .type__punches {
+    position: relative;
+    opacity: 60%;
+  }
+
+  .type__punch-a {
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    left: -20rem;
+    right: 0;
+    text-align: center;
+    margin-top: -33rem;
+    transform: rotate(-15deg);
+  }
+
+  .type__punch-b {
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    left: 0;
+    right: -18rem;
+    text-align: center;
+    margin-top: -30rem;
+    transform: rotate(15deg);
+  }
+
+  .type__punch-c {
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    left: -20rem;
+    right: 0;
+    text-align: center;
+    margin-top: -20rem;
+    transform: rotate(-16deg);
+  }
+
+  .type__punch-e {
+    position: absolute;
+    overflow: hidden;
+    z-index: 0;
+    margin: auto;
+    left: 0;
+    right: -20rem;
+    text-align: center;
+    margin-top: -19rem;
+    transform: rotate(-15deg);
+  }
+
+  .type__punch-d {
+    position: absolute;
+    z-index: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: -6rem;
+    transform: rotate(-13deg);
+  }
+
+  .type__punch {
+    width: 100%;
+    max-width: 6rem;
+  }
+
   .part__2-1 {
     margin-bottom: 2rem;
   }
@@ -202,6 +294,7 @@ body {
     margin: auto;
     font-size: 2.5rem;
     padding-bottom: 2rem;
+    line-height: 3rem;
   }
 
   .chapter__3 {
@@ -362,6 +455,15 @@ body {
     margin-top: 2.5rem;
   }
 
+  .circle {
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 23rem;
+    padding: 2rem;
+    padding-bottom: 2.5rem;
+  }
+
   .title__characteristics {
     text-align: center;
     margin: auto;
@@ -371,14 +473,36 @@ body {
     line-height: 2.6rem;
   }
 
-  .characteristic__text {
-    padding-left: 2.5rem;
-    width: 20rem;
-    padding-bottom: 2rem;
+  .characteristics__text {
+    padding-bottom: 6rem;
   }
 
-  .characteristics__text {
-    padding-bottom: 4rem;
+  .characteristic__text {
+    margin: auto;
+    display: block;
+    width: 20rem;
+    padding-bottom: 3rem;
+  }
+
+}
+
+@media only screen and (min-width: 450px) {
+
+  .body__text {
+    max-width: 25rem;
+  }
+
+  .body__text-center {
+    max-width: 25rem;
+  }
+
+  .part__2 {
+    padding-top: 4rem;
+  }
+
+  .quote__text {
+    font-size: 2rem;
+    max-width: 26rem;
   }
 
 }
@@ -387,4 +511,39 @@ body {
 }
 
 @media only screen and (min-width: 835px) {
+
+  .header__title {
+    font-size: 8rem;
+    max-width: 40rem;
+    padding-top: 5rem;
+    padding-left: 4rem;
+    margin: 0;
+    text-align: start;
+  }
+
+  .header__text {
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    max-width: 40rem;
+  }
+
+  .header__slanted {
+    padding-top: 4rem;
+    text-align: right;
+    margin-right: 0;
+    padding-right: 4rem;
+    max-width: 15rem;
+    display: flex;
+    justify-self: flex-end;
+  }
+
+  .introduction__container {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+  }
 }
