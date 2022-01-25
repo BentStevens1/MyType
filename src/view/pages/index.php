@@ -10,7 +10,10 @@
   <div class= "introduction__container">
     <h1 class= "intro__title-mobile">Hi, i'm William Caslon!</h1>
     <img class= "img__william" src="./assets/images/william.png" alt="William-Caslon">
-    <p class= "body__text intro__text"> I am the creator of the legendary typeface Caslon. But I will tell you more about that later. Like every story my story starts at the beginning…</p>
+    <div class= "intro__text-container">
+      <h1 class= "intro__title-desktop">Hi, i'm William Caslon!</h1>
+      <p class= "body__text intro__text"> I am the creator of the legendary typeface Caslon. But I will tell you more about that later. Like every story my story starts at the beginning…</p>
+    </div>
   </div>
 </section>
 
@@ -28,15 +31,19 @@
   <h1 class= " title title__call">My call</h1>
   <h2 class= "title title__adventure">to adventure</h2>
 
-  <div>
-    <img class= "img__guns" src="./assets/images/guns.png" alt="">
+  <div class= "adventure__container">
+    <div>
+      <img class= "img__guns" src="./assets/images/guns.png" alt="">
+    </div>
+
+    <div class= "adventure__text">
+      <p class= "body__text body__text-padding">In <span class= "highlight">1716</span> I started a business in London. I was an official engraver of gun locks and barrels, and made tools for bookbinders. Metalwork is a form of art in my opinion, it requires precision and patience.</p>
+      <p class= "body__text body__text-padding">For seven years I did numerous assignments for many different people. My metal craftsmanship was noticed by <span class= "highlight">the printer John Watts</span>. He gave me the task of cutting type punches for various presses in London. I challenged myself and took the job.</p>
+      <p class= "body__text body__text-padding">It's from that moment that I became more and more interested in the <span class= "highlight">art of letter engraving</span>.</p>
+    </div>
+
   </div>
 
-  <div>
-    <p class= "body__text body__text-padding">In <span class= "highlight">1716</span> I started a business in London. I was an official engraver of gun locks and barrels, and made tools for bookbinders. Metalwork is a form of art in my opinion, it requires precision and patience.</p>
-    <p class= "body__text body__text-padding">For seven years I did numerous assignments for many different people. My metal craftsmanship was noticed by <span class= "highlight">the printer John Watts</span>. He gave me the task of cutting type punches for various presses in London. I challenged myself and took the job.</p>
-    <p class= "body__text body__text-padding">It's from that moment that I became more and more interested in the <span class= "highlight">art of letter engraving</span>.</p>
-  </div>
 </section>
 
 <section class= "quote">
