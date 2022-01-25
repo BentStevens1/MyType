@@ -1,15 +1,15 @@
 <section class="header">
   <div>
     <h1 class= "header__title">The Story of Caslon</h1>
-    <p class= "body__text-center header__text">Discover the history of one of the most iconic typefaces of all time. Told by William Caslon himself. The founder and creator of the Caslon typeface, a serif font with a rich history.</p>
+    <p class= "header__text">Discover the history of one of the most iconic typefaces of all time. Told by William Caslon himself. The founder and creator of the Caslon typeface, a serif font with a rich history.</p>
   </div>
   <p class= "header__slanted">presented by Slanted Magazine</p>
 </section>
 
 <section class= "introduction">
-  <h1 class= "intro__title">Hi, i'm William Caslon!</h1>
-  <div>
-    <img src="" alt="">
+  <div class= "introduction__container">
+    <h1 class= "intro__title-mobile">Hi, i'm William Caslon!</h1>
+    <img class= "img__william" src="./assets/images/william.png" alt="William-Caslon">
     <p class= "body__text intro__text"> I am the creator of the legendary typeface Caslon. But I will tell you more about that later. Like every story my story starts at the beginning…</p>
   </div>
 </section>
@@ -29,7 +29,7 @@
   <h2 class= "title title__adventure">to adventure</h2>
 
   <div>
-    <img src="" alt="">
+    <img class= "img__guns" src="./assets/images/guns.png" alt="">
   </div>
 
   <div>
@@ -46,10 +46,20 @@
 </section>
 
 <section class= "part__2">
-  <h2 class= "chapter chapter__2">Chapter 2</h2>
-  <h1 class= "title title__love">My first love</h1>
-  <p class= "body__text-center body__text-padding">I fell in love with making <span class= "highlight">type punches</span>. In the years that followed, I took on countless of other jobs for companies that had to do with letter engraving. In 1720 <span class= "highlight">William Bowyer</span> asked me to design an English Arabic for Christian publications to be distributed in the Middle East.</p>
-  <p class= "body__text-center body__text-padding">The typeface is now <span class= "highlight">used in psalter and the New Testament</span>. William saw the passion in me and we became good friends. Through jobs like this, the word spread about my type engraving.</p>
+  <div class= "chapter__2-container">
+    <h2 class= "chapter chapter__2">Chapter 2</h2>
+    <h1 class= "title title__love">My first love</h1>
+    <p class= "body__text-center body__text-padding">I fell in love with making <span class= "highlight">type punches</span>. In the years that followed, I took on countless of other jobs for companies that had to do with letter engraving. In 1720 <span class= "highlight">William Bowyer</span> asked me to design an English Arabic for Christian publications to be distributed in the Middle East.</p>
+    <p class= "body__text-center body__text-padding">The typeface is now <span class= "highlight">used in psalter and the New Testament</span>. William saw the passion in me and we became good friends. Through jobs like this, the word spread about my type engraving.</p>
+  </div>
+
+  <div class= "type__punches">
+    <img class= "type__punch type__punch-a" src="./assets/images/type_punches/a.png" alt="typepunch_a">
+    <img class= "type__punch type__punch-b" src="./assets/images/type_punches/b.png" alt="typepunch_b">
+    <img class= "type__punch type__punch-c" src="./assets/images/type_punches/c.png" alt="typepunch_c">
+    <img class= "type__punch type__punch-e" src="./assets/images/type_punches/e.png" alt="typepunch_e">
+    <img class= "type__punch type__punch-d" src="./assets/images/type_punches/d.png" alt="typepunch_d">
+  </div>
 </section>
 
 <section class= "part__2-1">
@@ -132,22 +142,22 @@
 <section>
   <article>
     <div>
-      <img src="" alt="">
+      <img class= "circle" src="./assets/images/characteristics_mobile/v.png" alt="circle-v">
       <p class= "body__text characteristic__text">There is a greater contrast between the <span class= "highlight">thin and thick strokes</span>, and that's why they are generally speaking sharper in appearance. </p>
     </div>
 
     <div>
-      <img src="" alt="">
+      <img class= "circle" src="./assets/images/characteristics_mobile/o.png" alt="circle-o">
       <p class= "body__text characteristic__text">Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more <span class= "highlight">upright position</span>.</p>
     </div>
 
     <div>
-      <img src="" alt="">
+      <img class= "circle" src="./assets/images/characteristics_mobile/d.png" alt="circle-d">
       <p class= "body__text characteristic__text">Perhaps the most notable characteristic is that the ascenders have a <span class= "highlight">wedged shape</span>. </p>
     </div>
 
     <div>
-      <img src="" alt="">
+      <img class= "circle" src="./assets/images/characteristics_mobile/e.png" alt="circle-e">
       <p class= "body__text characteristic__text">The <span class= "highlight">horizontal crossbars</span>, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
     </div>
 
