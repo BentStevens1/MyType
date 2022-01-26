@@ -18,16 +18,16 @@ body {
   color: var(--colorText);
 }
 
-.hidden {
-  display: none;
-  visibility: hidden;
-}
-
 .highlight {
   color: var(--colorHighlight);
 }
 
 @media only screen and (min-width: 360px) {
+
+  .hidden-mobile {
+    display: none;
+    visibility: hidden;
+  }
 
   .part__3 {
     background-color: white;
@@ -337,6 +337,14 @@ body {
     }
   }
 
+  .specimen__text {
+    font-size: 1rem;
+    font-family: var(--font);
+    line-height: 1.6rem;
+    padding-left: var(--mobileSpacer);
+    max-width: 22rem;
+  }
+
   form {
     margin-top: 4rem;
     margin-bottom: 2.5rem;
@@ -427,7 +435,18 @@ body {
   }
 
   .part__4 {
+    position: relative;
+    overflow: hidden;
     margin-bottom: 6rem;
+  }
+
+  .img__shapes {
+    position: absolute;
+    margin-top: -30rem;
+    width: 100%;
+    max-width: 30rem;
+    left: 8rem;
+    opacity: 40%;
   }
 
   .chapter__4 {
@@ -515,6 +534,16 @@ body {
 }
 
 @media only screen and (min-width: 700px) {
+
+  .hidden-dektop {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hidden-mobile {
+    display: block;
+    visibility: visible;
+  }
 
   .body__text {
     max-width: 42rem;
@@ -660,6 +689,148 @@ body {
 
   .title__love {
     font-size: 3rem;
+  }
+
+  .part__2 {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .type__punches {
+    opacity: 100%;
+  }
+
+  .type__punch {
+    max-width: 7rem;
+  }
+
+  .type__punch-a {
+    left: -25rem;
+  }
+
+  .type__punch-b {
+    right: -30rem;
+  }
+
+  .type__punch-c {
+    margin-top: -15rem;
+    left: -33rem;
+  }
+
+  .type__punch-e {
+    right: -34rem;
+    margin-top: -13rem;
+  }
+
+  .type__punch-d {
+    margin-top: 3rem;
+  }
+
+  .title__friends {
+    font-size: 3rem;
+  }
+
+  .chapter__3 {
+    padding-top: 5rem;
+    padding-left: 3rem;
+  }
+
+  .title__success {
+    font-size: 3rem;
+    padding-left: 3rem;
+  }
+
+  .specimen__text-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin-bottom: 7rem;
+  }
+
+  .specimen__text {
+    font-size: 1rem;
+    font-family: var(--font);
+    line-height: 1.6rem;
+    max-width: 42rem;
+    padding: 1.5rem;
+  }
+
+  .specimen__text-border {
+    border-right: solid black 1px;
+  }
+
+  .chapter__4 {
+    text-align-last: start;
+    padding-left: 2rem;
+  }
+
+  .title__world {
+    font-size: 3rem;
+    padding-left: 3rem;
+  }
+
+  .text__world {
+    max-width: 27rem;
+  }
+
+  .chapter__4-middle {
+    max-width: 30rem;
+    padding-left: 7rem;
+  }
+
+  .part__4 {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .img__shapes {
+    position: absolute;
+    margin-top: -33rem;
+    width: 100%;
+    max-width: 33rem;
+    left: 12rem;
+  }
+
+  .title__characteristics {
+    max-width: 30rem;
+  }
+
+  .img__characteristics {
+    display: block;
+    margin: auto;
+    width: 100%;
+    padding: 1rem;
+    max-width: 90rem;
+  }
+
+  .characteristics__words {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    font-family: var(--font);
+    line-height: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .characteristic-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+  }
+
+  .characteristic__text-container {
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+    max-width: 50rem;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: var(--font);
+    line-height: 1.6rem;
+  }
+
+  .characteristic__text-container-1 {
+    border-right: solid white 1px;
   }
 
 }
