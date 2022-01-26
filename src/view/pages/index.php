@@ -71,15 +71,22 @@
 
 <section class= "part__2-1">
   <h1 class= "title title__friends">With a little help from my friends</h1>
-  <p class= "body__text-center body__text-padding">Although my success with the typefaces in England were almost instantaneous, I did not do this on my own. Banks gave me loans and sufficient money to go on. Having contact with printers, I was induced to <span class= "highlight">start up a type foundry</span>, largely through the encouragement of my dear friend William Bowyer.</p>
-  <p class= "body__text-center body__text-padding">And off course, then there was my lovely wife Elizabeth who assisted me in getting the foundry reputation going. I met Elizabeth in the first years that I worked in London. </p>
+  <div class ="sticky">
+    <p class= "body__text-center body__text-padding sticky">Although my success with the typefaces in England were almost instantaneous, I did not do this on my own. Banks gave me loans and sufficient money to go on. Having contact with printers, I was induced to <span class= "highlight">start up a type foundry</span>, largely through the encouragement of my dear friend William Bowyer.</p>
+    <p class= "body__text-center body__text-padding sticky">And off course, then there was my lovely wife Elizabeth who assisted me in getting the foundry reputation going. I met Elizabeth in the first years that I worked in London. </p>
+  </div>
+
+  <div class= "shelf__container">
+    <img class= "img__shelf-l" src="./assets/images/shelf-left.png" alt="shelf-left">
+    <img class= "img__shelf-r"src="./assets/images/shelf-right.png" alt="shelf-right">
+  </div>
 </section>
 
 <div class= "part__3">
   <section>
     <h2 class= "chapter chapter__3">Chapter 3</h2>
     <h1 class= "title title__success">Successful, but incomplete</h1>
-    <p class= "body__text">Sure there where challenges, moments of doubt and setbacks. But from 1720 to 1780 few books were printed in England that did not use type from my foundry. Yes, I made a lot of typefaces in my years as a type founder. Still I felt a <span class= "highlight">burning desire</span> to keep moving. Why did I leave my simple life and home town? Well, I wanted to have a <span class= "highlight">lasting impact on the world</span>. And now I was ready.</p>
+    <p class= "body__text success__text">Sure there where challenges, moments of doubt and setbacks. But from 1720 to 1780 few books were printed in England that did not use type from my foundry. Yes, I made a lot of typefaces in my years as a type founder. Still I felt a <span class= "highlight">burning desire</span> to keep moving. Why did I leave my simple life and home town? Well, I wanted to have a <span class= "highlight">lasting impact on the world</span>. And now I was ready.</p>
   </section>
 
   <section class= "quote-slide">
