@@ -71,8 +71,8 @@
 
 <section class= "part__2-1">
   <h1 class= "title title__friends">With a little help from my friends</h1>
-  <p class= "body__text body__text-padding">Although my success with the typefaces in England were almost instantaneous, I did not do this on my own. Banks gave me loans and sufficient money to go on. Having contact with printers, I was induced to <span class= "highlight">start up a type foundry</span>, largely through the encouragement of my dear friend William Bowyer.</p>
-  <p class= "body__text body__text-padding">And off course, then there was my lovely wife Elizabeth who assisted me in getting the foundry reputation going. I met Elizabeth in the first years that I worked in London. </p>
+  <p class= "body__text-center body__text-padding">Although my success with the typefaces in England were almost instantaneous, I did not do this on my own. Banks gave me loans and sufficient money to go on. Having contact with printers, I was induced to <span class= "highlight">start up a type foundry</span>, largely through the encouragement of my dear friend William Bowyer.</p>
+  <p class= "body__text-center body__text-padding">And off course, then there was my lovely wife Elizabeth who assisted me in getting the foundry reputation going. I met Elizabeth in the first years that I worked in London. </p>
 </section>
 
 <div class= "part__3">
@@ -87,9 +87,9 @@
   </section>
 
   <section>
-    <div>
-      <p class= "body__text body__text-padding">In <span class= "highlight">1722</span> my friend William Bowyer saw my desire, acknowledged my talent and asked me to cut <span class= "highlight">roman, italic, and Hebrew typefaces</span>. A new roman typeface with lots of character. It was first used in 1726 and a few years later it came to be called Caslon. Named after me of course.</p>
-      <p class= "body__text body__text-padding">I issued my first official specimen sheet of the typeface in 1734 and exhibited the roman and italic types in 14 different sizes. The Caslon typeface eventually spread <span class= "highlight">all over Europe and the American colonies</span>. It became so popular that the expression “When in doubt, use Caslon” came about. I am really proud of that. </p>
+    <div class= "specimen__text-container">
+      <p class= "specimen__text specimen__text-border body__text-padding">In <span class= "highlight">1722</span> my friend William Bowyer saw my desire, acknowledged my talent and asked me to cut <span class= "highlight">roman, italic, and Hebrew typefaces</span>. A new roman typeface with lots of character. It was first used in 1726 and a few years later it came to be called Caslon. Named after me of course.</p>
+      <p class= "specimen__text body__text-padding">I issued my first official specimen sheet of the typeface in 1734 and exhibited the roman and italic types in 14 different sizes. The Caslon typeface eventually spread <span class= "highlight">all over Europe and the American colonies</span>. It became so popular that the expression “When in doubt, use Caslon” came about. I am really proud of that. </p>
     </div>
 
     <div>
@@ -130,13 +130,13 @@
   <h1 class= "title title__world">Changing the world</h1>
 
   <div>
-    <p class= "body__text body__text-padding">Caslon is a <span class= "highlight">versatile typeface</span> that can be found in a wide variety of places. Places where history has been written. My typeface was considered the <span class= "highlight">font of choice for royalty and politics</span>.</p>
+    <p class= "text__world body__text body__text-padding">Caslon is a <span class= "highlight">versatile typeface</span> that can be found in a wide variety of places. Places where history has been written. My typeface was considered the <span class= "highlight">font of choice for royalty and politics</span>.</p>
     <p class= "chapter__4-middle body__text body__text-padding">I surpassed all of my competitors in no time and became the exclusive type foundry <span class= "highlight">for the King's printers</span>. Many great works of literature and documents of historical importance used my Caslon typeface.</p>
-    <p class= "body__text body__text-padding">It was used in the first printed version of <span class= "highlight">the United States Declaration of Independence</span>. And George Bernard Shaw asked specifically that all his plays were set in the Caslon typeface. I never met George, but he seems like a nice guy.</p>
+    <p class= "text__world body__text body__text-padding">It was used in the first printed version of <span class= "highlight">the United States Declaration of Independence</span>. And George Bernard Shaw asked specifically that all his plays were set in the Caslon typeface. I never met George, but he seems like a nice guy.</p>
   </div>
 
-  <div>
-    <img src="" alt="">
+  <div class= "img__shapes-container">
+    <img class= "img__shapes" src="./assets/images/shapes.png" alt="shapes">
   </div>
 </section>
 
@@ -147,7 +147,7 @@
 </section>
 
 <section>
-  <article>
+  <article class= "hidden-dektop">
     <div>
       <img class= "circle" src="./assets/images/characteristics_mobile/v.png" alt="circle-v">
       <p class= "body__text characteristic__text">There is a greater contrast between the <span class= "highlight">thin and thick strokes</span>, and that's why they are generally speaking sharper in appearance. </p>
@@ -169,25 +169,28 @@
     </div>
 
   </article>
-  <img src="" alt="">
 
-  <article class= "hidden">
+  <article class= "hidden-mobile">
 
-    <div>
-      <p>wedged shape</p>
-      <p>horizontal crossbar</p>
-      <p>upright position</p>
-      <p>thin and thick strokes</p>
+    <img class= "img__characteristics" src="./assets/images/characteristics.png" alt="characteristics-img">
+
+    <div class= "characteristics__words">
+      <p class= "characteristics__word" >wedged shape</p>
+      <p class= "characteristics__word">horizontal crossbar</p>
+      <p class= "characteristics__word">upright position</p>
+      <p class= "characteristics__word">thin and thick strokes</p>
     </div>
 
-    <div>
-      <p>There is a greater contrast between the thin and thick strokes, and that's why they are generally speaking sharper in appearance. </p>
-      <p>Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more upright position.</p>
-    </div>
+    <div class= "characteristic-container">
+      <div class= "characteristic__text-container characteristic__text-container-1">
+        <p class= "body__text-padding">There is a greater contrast between the thin and thick strokes, and that's why they are generally speaking sharper in appearance. </p>
+        <p>Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more upright position.</p>
+      </div>
 
-    <div>
-      <p>Perhaps the most notable characteristic is that the ascenders have a wedged shape. </p>
-      <p>The horizontal crossbars, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
+      <div class= "characteristic__text-container">
+        <p class= "body__text-padding">Perhaps the most notable characteristic is that the ascenders have a wedged shape. </p>
+        <p>The horizontal crossbars, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
+      </div>
     </div>
   </article>
 </section>
