@@ -34,6 +34,11 @@ body {
     color: black;
   }
 
+  .shelf__container {
+    display: none;
+    visibility: hidden;
+  }
+
   .body__text {
     font-size: 1rem;
     font-family: var(--font);
@@ -285,10 +290,6 @@ body {
     max-width: 6rem;
   }
 
-  .part__2-1 {
-    margin-bottom: 2rem;
-  }
-
   .title__friends {
     text-align: center;
     margin: auto;
@@ -318,6 +319,8 @@ body {
     margin-bottom: 4rem;
     white-space: nowrap;
     font-size: 2.5rem;
+    padding-top: 1rem;
+
   }
 
   .quote-slide blockquote {
@@ -568,6 +571,37 @@ body {
   .hidden-mobile {
     display: block;
     visibility: visible;
+  }
+
+  .sticky {
+    position: sticky;
+    top: 40px;
+    margin: auto;
+    max-width: 25rem;
+  }
+
+  .shelf__container {
+    display: flex;
+    visibility: visible;
+    flex-flow: row;
+    justify-content: space-between;
+    overflow: hidden;
+    margin-bottom: -.2rem;
+
+  }
+
+  .img__shelf-l {
+    position: static;
+    width: 100%;
+    max-width: 24rem;
+    margin-left: -13rem;
+  }
+
+  .img__shelf-r {
+    position: static;
+    width: 100%;
+    max-width: 24rem;
+    margin-right: -13rem;
   }
 
   .body__text {
@@ -868,7 +902,26 @@ body {
 
 }
 
+@media only screen and (min-width: 900px) {
+
+  .sticky {
+    max-width: 29rem;
+  }
+
+  .img__shelf-l {
+    margin-left: -9rem;
+  }
+
+  .img__shelf-r {
+    margin-right: -9rem;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
+
+  .header {
+    height: 65rem;
+  }
 
   .header__title {
     padding-top: 7rem;
@@ -887,12 +940,13 @@ body {
   .body__text {
     max-width: 55rem;
     font-size: 1.3rem;
-    line-height: 2rem;
+    line-height: 2.4rem;
   }
 
   .body__text-center {
     font-size: 1.3rem;
     max-width: 45rem;
+    line-height: 2.4rem;
   }
 
   .body__text-padding {
@@ -918,6 +972,7 @@ body {
   .date {
     font-size: 15rem;
     padding-left: 7rem;
+    padding-top: 12rem;
   }
 
   .chapter {
@@ -926,6 +981,10 @@ body {
 
   .part__1 {
     padding-bottom: 18rem;
+  }
+
+  .chapter__1 {
+    padding-bottom: 2rem;
   }
 
   .title__life {
@@ -942,7 +1001,7 @@ body {
   }
 
   .img__guns {
-    max-width: 40rem;
+    max-width: 35rem;
   }
 
   .adventure__text {
@@ -959,7 +1018,7 @@ body {
   }
 
   .part__2 {
-    padding-bottom: 19rem;
+    padding-bottom: 25rem;
   }
 
   .title__love {
@@ -967,17 +1026,17 @@ body {
   }
 
   .type__punch {
-    max-width: 8rem;
+    max-width: 11rem;
   }
 
   .type__punch-a {
     left: -50rem;
-    margin-top: -30rem;
+    margin-top: -35rem;
   }
 
   .type__punch-b {
-    margin-top: -28rem;
-    right: -50rem;
+    margin-top: -30rem;
+    right: -55rem;
   }
 
   .type__punch-c {
@@ -986,18 +1045,23 @@ body {
   }
 
   .type__punch-e {
-    margin-top: -5rem;
-    right: -40rem;
+    margin-top: -7rem;
+    right: -43rem;
   }
 
   .type__punch-d {
-    margin-top: 5rem;
+    margin-top: 7rem;
   }
 
   .title__friends {
     font-size: 5rem;
     max-width: 37rem;
-    line-height: 5rem;
+    line-height: 6rem;
+  }
+
+  .chapter__3 {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
   }
 
   .title__success {
@@ -1014,6 +1078,7 @@ body {
     font-size: 1.3rem;
     max-width: 40rem;
     padding: 2rem;
+    line-height: 2.5rem;
   }
 
   .title__specimen {
@@ -1041,7 +1106,7 @@ body {
   }
 
   form {
-    margin-bottom: 3.5rem;
+    margin-bottom: 5rem;
   }
 
   .specimen__interaction {
@@ -1079,7 +1144,7 @@ body {
   }
 
   .chapter__4-middle {
-    max-width: 50rem;
+    max-width: 43rem;
     font-size: 1.5rem;
   }
 
@@ -1102,6 +1167,8 @@ body {
   .characteristics__text {
     font-size: 1.3rem;
     max-width: 70rem;
+    padding-bottom: 10rem;
+    line-height: 2.4rem;
   }
 
   .img__characteristics {
@@ -1115,10 +1182,250 @@ body {
 
   .characteristic__text-container {
     max-width: 40rem;
+    line-height: 2.5rem;
     font-size: 1.3rem;
   }
 
+  .sticky {
+    max-width: 35rem;
+  }
+
+  .img__shelf-l {
+    position: static;
+    width: 100%;
+    max-width: 35rem;
+    margin-left: -13rem;
+  }
+
+  .img__shelf-r {
+    position: static;
+    width: 100%;
+    max-width: 35rem;
+    margin-right: -13rem;
+  }
 }
 
 @media only screen and (min-width: 1700px) {
+
+  .body__text {
+    max-width: 70rem;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
+    padding-left: 10rem;
+  }
+
+  .body__text-center {
+    font-size: 1.3rem;
+    line-height: 2.2rem;
+    max-width: 55rem;
+  }
+
+  .img__william {
+    max-width: 45rem;
+  }
+
+  .intro__title-desktop {
+    font-size: 4rem;
+    max-width: 45rem;
+  }
+
+  .intro__text {
+    max-width: 50rem;
+  }
+
+  .date {
+    font-size: 20rem;
+    padding-top: 12rem;
+    letter-spacing: 10rem;
+    padding-left: 10rem;
+  }
+
+  .chapter {
+    font-size: 2.5rem;
+    padding-left: 4rem;
+  }
+
+  .chapter__1 {
+    padding-bottom: 2rem;
+  }
+
+  .title__life {
+    font-size: 7rem;
+    padding-left: 6rem;
+  }
+
+  .part__1 {
+    padding-bottom: 28rem;
+  }
+
+  .title__call {
+    font-size: 10rem;
+  }
+
+  .title__adventure {
+    font-size: 7rem;
+    padding-left: 20rem;
+  }
+
+  .img__guns {
+    max-width: 50rem;
+  }
+
+  .adventure__text {
+    max-width: 60rem;
+  }
+
+  .quote {
+    margin-top: 25rem;
+    margin-bottom: 15rem;
+  }
+
+  .quote__text {
+    max-width: 100rem;
+    font-size: 6rem;
+    line-height: 7rem;
+  }
+
+  .chapter__2 {
+    padding-bottom: 2rem;
+  }
+
+  .title__love {
+    font-size: 7rem;
+    padding-bottom: 2.5rem;
+  }
+
+  .part__2 {
+    padding-top: 15rem;
+    padding-bottom: 30rem;
+    margin-bottom: 20rem;
+  }
+
+  .type__punch {
+    max-width: 12rem;
+
+  }
+
+  .type__punch-a {
+    margin-top: -45rem;
+    left: -65rem;
+  }
+
+  .type__punch-b {
+    margin-top: -37rem;
+    right: -70rem;
+  }
+
+  .type__punch-c {
+    left: -60rem;
+  }
+
+  .type__punch-e {
+    right: -57rem;
+  }
+
+  .type__punch-d {
+    margin-top: 11rem;
+  }
+
+  .title__friends {
+    font-size: 7rem;
+    max-width: 50rem;
+    line-height: 7rem;
+    padding-bottom: 3rem;
+  }
+
+  .chapter__3 {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+  }
+
+  .title__success {
+    font-size: 7rem;
+    padding-left: 5rem;
+  }
+
+  .success__text {
+    max-width: 60rem;
+  }
+
+  .quote-slide {
+    font-size: 6rem;
+  }
+
+  .specimen__text {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    max-width: 40rem;
+  }
+
+  .specimen__text-container {
+    margin-bottom: 12rem;
+  }
+
+  form {
+    margin-bottom: 5rem;
+  }
+
+  .specimen__interaction {
+    padding-bottom: 12rem;
+  }
+
+  .chapter__4 {
+    margin-top: 9rem;
+  }
+
+  .title__world {
+    font-size: 7rem;
+    padding-left: 5rem;
+  }
+
+  .text__world {
+    max-width: 60rem;
+  }
+
+  .chapter__4-middle {
+    max-width: 70rem;
+    padding: 2rem 15rem 4rem;
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+
+  .img__shapes {
+    max-width: 50rem;
+    margin-top: -45rem;
+  }
+
+  .chapter__5 {
+    padding-bottom: 2rem;
+  }
+
+  .title__characteristics {
+    font-size: 5rem;
+    max-width: 60rem;
+    line-height: 6rem;
+  }
+
+  .characteristics__words {
+    font-size: 1.2rem;
+  }
+
+  .characteristic__text-container {
+    line-height: 2.5rem;
+    max-width: 40rem;
+  }
+
+  .sticky {
+    max-width: 45rem;
+  }
+
+  .img__shelf-l {
+    max-width: 40rem;
+    margin-left: -13rem;
+  }
+
+  .img__shelf-r {
+    max-width: 40rem;
+    margin-right: -13rem;
+  }
 }
