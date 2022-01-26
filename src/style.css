@@ -494,6 +494,10 @@ body {
 
   .characteristics__text {
     padding-bottom: 6rem;
+    font-size: 1rem;
+    font-family: var(--font);
+    line-height: 1.6rem;
+    padding-left: var(--mobileSpacer);
   }
 
   .characteristic__text {
@@ -528,9 +532,30 @@ body {
     font-size: 2rem;
   }
 
+  .intro__title-mobile {
+    font-size: 2rem;
+  }
+
 }
 
 @media only screen and (min-width: 570px) {
+
+  .header__title {
+    font-size: 5rem;
+    max-width: 25rem;
+  }
+
+  .header__text {
+    max-width: 25rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    padding-bottom: 2rem;
+  }
+
+  .title__characteristics {
+    max-width: 30rem;
+  }
+
 }
 
 @media only screen and (min-width: 700px) {
@@ -619,7 +644,7 @@ body {
   .intro__text {
     font-size: 1.3rem;
     line-height: 2rem;
-    width: 25rem;
+    width: 100%;
     max-width: 35rem;
   }
 
@@ -628,7 +653,7 @@ body {
     overflow: hidden;
     margin: 0;
     width: 100%;
-    max-width: 30rem;
+    max-width: 35rem;
     padding: 1rem;
   }
 
@@ -671,7 +696,7 @@ body {
 
   .adventure__text {
     margin-left: -2rem;
-    width: 30rem;
+    max-width: 30rem;
     padding-right: 2rem;
   }
 
@@ -795,6 +820,14 @@ body {
     max-width: 30rem;
   }
 
+  .characteristics__text {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-left: 0;
+    max-width: 40rem;
+  }
+
   .img__characteristics {
     display: block;
     margin: auto;
@@ -806,10 +839,10 @@ body {
   .characteristics__words {
     display: flex;
     justify-content: space-evenly;
-    font-size: 1rem;
+    font-size: .8rem;
     font-family: var(--font);
     line-height: 1.6rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
 
   .characteristic-container {
@@ -833,4 +866,259 @@ body {
     border-right: solid white 1px;
   }
 
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .header__title {
+    padding-top: 7rem;
+    padding-left: 7rem;
+    font-size: 10rem;
+    max-width: 50rem;
+  }
+
+  .header__text {
+    padding-left: 9rem;
+    max-width: 50rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+  }
+
+  .body__text {
+    max-width: 55rem;
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+
+  .body__text-center {
+    font-size: 1.3rem;
+    max-width: 45rem;
+  }
+
+  .body__text-padding {
+    padding-bottom: 2.5rem;
+  }
+
+  .intro__title-desktop {
+    font-size: 3.5rem;
+    max-width: 40rem;
+  }
+
+  .intro__text {
+    max-width: 40rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+
+  .img__william {
+    width: 100%;
+    max-width: 35rem;
+  }
+
+  .date {
+    font-size: 15rem;
+    padding-left: 7rem;
+  }
+
+  .chapter {
+    font-size: 2rem;
+  }
+
+  .part__1 {
+    padding-bottom: 18rem;
+  }
+
+  .title__life {
+    font-size: 5rem;
+  }
+
+  .title__call {
+    font-size: 7rem;
+  }
+
+  .title__adventure {
+    font-size: 5rem;
+    padding-left: 8rem;
+  }
+
+  .img__guns {
+    max-width: 40rem;
+  }
+
+  .adventure__text {
+    max-width: 40rem;
+  }
+
+  .quote {
+    margin-top: 15rem;
+  }
+
+  .quote__text {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  .part__2 {
+    padding-bottom: 19rem;
+  }
+
+  .title__love {
+    font-size: 5rem;
+  }
+
+  .type__punch {
+    max-width: 8rem;
+  }
+
+  .type__punch-a {
+    left: -50rem;
+    margin-top: -30rem;
+  }
+
+  .type__punch-b {
+    margin-top: -28rem;
+    right: -50rem;
+  }
+
+  .type__punch-c {
+    margin-top: -10rem;
+    left: -43rem;
+  }
+
+  .type__punch-e {
+    margin-top: -5rem;
+    right: -40rem;
+  }
+
+  .type__punch-d {
+    margin-top: 5rem;
+  }
+
+  .title__friends {
+    font-size: 5rem;
+    max-width: 37rem;
+    line-height: 5rem;
+  }
+
+  .title__success {
+    font-size: 5rem;
+  }
+
+  .quote-slide {
+    font-size: 4rem;
+    margin-top: 13rem;
+    margin-bottom: 10rem;
+  }
+
+  .specimen__text {
+    font-size: 1.3rem;
+    max-width: 40rem;
+    padding: 2rem;
+  }
+
+  .title__specimen {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .input__field {
+    height: 2.5rem;
+    width: 30rem;
+  }
+
+  .button {
+    margin-top: 1.5rem;
+  }
+
+  .button-go {
+    width: 10rem;
+    height: 2.5rem;
+  }
+
+  .button-reset {
+    width: 10rem;
+    height: 2.5rem;
+  }
+
+  form {
+    margin-bottom: 3.5rem;
+  }
+
+  .specimen__interaction {
+    max-width: 30rem;
+    padding-bottom: 10rem;
+  }
+
+  .specimen__lowercase {
+    font-size: 4rem;
+  }
+
+  .specimen__uppercase {
+    font-size: 4rem;
+  }
+
+  .specimen__description {
+    font-size: 1rem;
+  }
+
+  .part__4 {
+    padding-bottom: 7rem;
+  }
+
+  .chapter__4 {
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+  }
+
+  .title__world {
+    font-size: 5rem;
+  }
+
+  .text__world {
+    max-width: 45rem;
+  }
+
+  .chapter__4-middle {
+    max-width: 50rem;
+    font-size: 1.5rem;
+  }
+
+  .img__shapes {
+    max-width: 45rem;
+    left: 30rem;
+    margin-top: -35rem;
+  }
+
+  .part__5 {
+    padding-top: 5rem;
+  }
+
+  .title__characteristics {
+    font-size: 4rem;
+    max-width: 45rem;
+    line-height: 5rem;
+  }
+
+  .characteristics__text {
+    font-size: 1.3rem;
+    max-width: 70rem;
+  }
+
+  .img__characteristics {
+    padding: 3rem;
+  }
+
+  .characteristics__words {
+    font-size: 1rem;
+    margin-bottom: 8rem;
+  }
+
+  .characteristic__text-container {
+    max-width: 40rem;
+    font-size: 1.3rem;
+  }
+
+}
+
+@media only screen and (min-width: 1700px) {
 }
