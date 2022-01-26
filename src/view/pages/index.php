@@ -143,7 +143,7 @@
 <section class= "part__5">
   <h2 class= "chapter chapter__5">Chapter 5</h2>
   <h1 class= "title title__characteristics">What makes my Caslon type so special, you might ask?</h1>
-  <p class= "body__text characteristics__text">The Caslon typeface is extremely <span class= "highlight">legible, yet graceful and classic</span>. That is why a lot of printers like to use it for printed communication pieces. I designed the typeface with the <span class= "highlight">Old-style typeface</span> characteristics in mind. I like the look of the Old-style typefaces because of their greater refinement.</p>
+  <p class= "characteristics__text">The Caslon typeface is extremely <span class= "highlight">legible, yet graceful and classic</span>. That is why a lot of printers like to use it for printed communication pieces. I designed the typeface with the <span class= "highlight">Old-style typeface</span> characteristics in mind. I like the look of the Old-style typefaces because of their greater refinement.</p>
 </section>
 
 <section>
