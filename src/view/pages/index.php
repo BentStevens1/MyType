@@ -190,13 +190,13 @@
 
     <div class= "characteristic-container anim-3 gs_reveal">
       <div class= "characteristic__text-container characteristic__text-container-1">
-        <p class= "body__text-padding">There is a greater contrast between the thin and thick strokes, and that's why they are generally speaking sharper in appearance. </p>
-        <p>Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more upright position.</p>
+        <p class= "body__text-padding">There is a greater contrast between the <span class= "highlight">thin and thick strokes</span>, and that's why they are generally speaking sharper in appearance. </p>
+        <p>Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more <span class= "highlight">upright position</span>.</p>
       </div>
 
       <div class= "characteristic__text-container">
-        <p class= "body__text-padding">Perhaps the most notable characteristic is that the ascenders have a wedged shape. </p>
-        <p>The horizontal crossbars, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
+        <p class= "body__text-padding">Perhaps the most notable characteristic is that the ascenders have a <span class= "highlight">wedged shape</span>. </p>
+        <p>The <span class= "highlight">horizontal crossbars</span>, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
       </div>
     </div>
   </article>

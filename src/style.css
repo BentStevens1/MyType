@@ -9,6 +9,13 @@
 }
 /* stylelint-enable */
 
+@font-face {
+  font-family: Poppins;
+  src: url(./assets/fonts/Poppins-Regular.woff2) format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
 html, body {
   box-sizing: border-box;
   background-color: var(--colorBackground);

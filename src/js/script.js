@@ -121,8 +121,6 @@ const animations = () => {
           ScrollTrigger.create({
             trigger: elem,
             onEnter: function () { animateFrom(elem);},
-            // onEnterBack: function () { animateFrom(elem, -1) },
-            // onLeave: function () { hide(elem) } // assure that the element is hidden when scrolled into view
           });
         });
       });
@@ -162,8 +160,6 @@ const animations = () => {
           ScrollTrigger.create({
             trigger: elem,
             onEnter: function () { animateFrom(elem);},
-            // onEnterBack: function () { animateFrom(elem, -1) },
-            // onLeave: function () { hide(elem) } // assure that the element is hidden when scrolled into view
           });
         });
       });
@@ -234,8 +230,6 @@ const animations = () => {
           ScrollTrigger.create({
             trigger: elem,
             onEnter: function () { animateFrom(elem);},
-            // onEnterBack: function () { animateFrom(elem, -1) },
-            // onLeave: function () { hide(elem) } // assure that the element is hidden when scrolled into view
           });
         });
       });
