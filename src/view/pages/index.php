@@ -71,9 +71,9 @@
 
 <section class= "part__2-1">
   <h1 class= "title title__friends anim-3 gs_reveal">With a little help from my friends</h1>
-  <div class ="sticky">
-    <p class= "body__text-center body__text-padding sticky anim-3 gs_reveal">Although my success with the typefaces in England were almost instantaneous, I did not do this on my own. Banks gave me loans and sufficient money to go on. Having contact with printers, I was induced to <span class= "highlight">start up a type foundry</span>, largely through the encouragement of my dear friend William Bowyer.</p>
-    <p class= "body__text-center body__text-padding sticky anim-3 gs_reveal">And off course, then there was my lovely wife Elizabeth who assisted me in getting the foundry reputation going. I met Elizabeth in the first years that I worked in London. </p>
+  <div class ="sticky anim-3 gs_reveal">
+    <p class= "body__text-center body__text-padding">Although my success with the typefaces in England were almost instantaneous, I did not do this on my own. Banks gave me loans and sufficient money to go on. Having contact with printers, I was induced to <span class= "highlight">start up a type foundry</span>, largely through the encouragement of my dear friend William Bowyer.</p>
+    <p class= "body__text-center body__text-padding">And off course, then there was my lovely wife Elizabeth who assisted me in getting the foundry reputation going. I met Elizabeth in the first years that I worked in London. </p>
   </div>
 
   <div class= "shelf__container">
