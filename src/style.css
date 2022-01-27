@@ -180,9 +180,9 @@ html, body {
 }
 
 .title__adventure {
+  text-align: center;
   font-size: 2.5rem;
   padding-right: 1.8rem;
-  text-align-last: end;
   padding-bottom: 1rem;
 }
 
@@ -460,7 +460,7 @@ form {
 }
 
 .chapter__4 {
-  text-align: center;
+  padding-left: 1rem;
   margin-bottom: auto;
   padding-bottom: 1rem;
   margin-top: 2.5rem;
@@ -721,7 +721,7 @@ form {
 
   .title__adventure {
     font-size: 3rem;
-    text-align-last: center;
+    text-align: center;
     margin-left: 12rem;
     padding-bottom: 5rem;
 
@@ -824,7 +824,7 @@ form {
   }
 
   .chapter__4 {
-    text-align-last: start;
+    text-align: start;
     padding-left: 2rem;
   }
 
