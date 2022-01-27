@@ -8,7 +8,7 @@
 
 <section class= "introduction">
   <div class= "introduction__container">
-    <h1 class= "intro__title-mobile gs_reveal">Hi, i'm William Caslon!</h1>
+    <h1 class= "intro__title-mobile ">Hi, i'm William Caslon!</h1>
     <img class= "img__william anim-2 gs_reveal" src="<?php echo $img_william ?>" alt="William-Caslon">
     <div class= "intro__text-container">
       <h1 class= "intro__title-desktop anim-1 gs_reveal">Hi, i'm William Caslon!</h1>
@@ -18,10 +18,10 @@
 </section>
 
 <section class= "part__1">
-  <p class= "title date">1692</p>
+  <p class= "title date gs_reveal">1692</p>
 
   <div>
-    <h2 class= "chapter chapter__1">Chapter 1</h2>
+    <h2 class= "chapter chapter__1 ">Chapter 1</h2>
     <h1 class= "title title__life anim-1 gs_reveal">The simple life</h1>
     <p class= "body__text anim-1 gs_reveal">It was a cold morning in the year 1692. I was born in a small village named <span class= "highlight">Cradley, Worcestershire </span>. I had a hard working family and from early on I was trained to be an engraver. Engraving is one of the oldest and most important techniques when producing images on paper in artistic printmaking. It was a simple life. Around the age of seventeen, I became an apprentice to a local <span class= "highlight">engraver of gunlocks and barrels</span>. That's where I started to learn all about the ins and out of metalwork.</p>
   </div>
@@ -156,23 +156,23 @@
 <section>
   <article class= "hidden-dektop">
     <div>
-      <img class= "circle" src="<?php echo $circle_v ?>" alt="circle-v">
-      <p class= "body__text characteristic__text">There is a greater contrast between the <span class= "highlight">thin and thick strokes</span>, and that's why they are generally speaking sharper in appearance. </p>
+      <img class= "circle anim-1 gs_reveal" src="<?php echo $circle_v ?>" alt="circle-v">
+      <p class= "body__text characteristic__text anim-2 gs_reveal">There is a greater contrast between the <span class= "highlight">thin and thick strokes</span>, and that's why they are generally speaking sharper in appearance. </p>
     </div>
 
     <div>
-      <img class= "circle" src="<?php echo $circle_o ?>" alt="circle-o">
-      <p class= "body__text characteristic__text">Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more <span class= "highlight">upright position</span>.</p>
+      <img class= "circle anim-1 gs_reveal" src="<?php echo $circle_o ?>" alt="circle-o">
+      <p class= "body__text characteristic__text anim-2 gs_reveal">Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more <span class= "highlight">upright position</span>.</p>
     </div>
 
     <div>
-      <img class= "circle" src="<?php echo $circle_d ?>" alt="circle-d">
-      <p class= "body__text characteristic__text">Perhaps the most notable characteristic is that the ascenders have a <span class= "highlight">wedged shape</span>. </p>
+      <img class= "circle anim-1 gs_reveal" src="<?php echo $circle_d ?>" alt="circle-d">
+      <p class= "body__text characteristic__text anim-2 gs_reveal">Perhaps the most notable characteristic is that the ascenders have a <span class= "highlight">wedged shape</span>. </p>
     </div>
 
     <div>
-      <img class= "circle" src="<?php echo $circle_e ?>" alt="circle-e">
-      <p class= "body__text characteristic__text">The <span class= "highlight">horizontal crossbars</span>, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
+      <img class= "circle anim-1 gs_reveal" src="<?php echo $circle_e ?>" alt="circle-e">
+      <p class= "body__text characteristic__text anim-2 gs_reveal">The <span class= "highlight">horizontal crossbars</span>, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
     </div>
 
   </article>
