@@ -1,10 +1,6 @@
 @import './css/reset.css';
 @import './css/vars.css';
 
-html {
-  box-sizing: border-box;
-}
-
 /* stylelint-disable */
 *,
 *::before,
@@ -13,10 +9,12 @@ html {
 }
 /* stylelint-enable */
 
-body {
+html, body {
+  box-sizing: border-box;
   background-color: var(--colorBackground);
   color: var(--colorText);
   cursor: none;
+  max-width: 100%;
 }
 
 ::selection {
@@ -911,6 +909,16 @@ form {
 
 @media only screen and (min-width: 900px) {
 
+  .hidden-dektop {
+    display: none;
+    visibility: hidden;
+  }
+
+  .hidden-mobile {
+    display: block;
+    visibility: visible;
+  }
+
   .sticky {
     max-width: 29rem;
   }
@@ -940,7 +948,7 @@ form {
     height: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: var(--colorHighlight);
+    border-color: #ff6534;
     border-radius: 20px;
     z-index: 1;
   }
