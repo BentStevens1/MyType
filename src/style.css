@@ -18,9 +18,53 @@ body {
   color: var(--colorText);
 }
 
+::selection {
+  background: var(--colorBackground);
+  color: #ff6534;
+}
+
+.page-wrapper {
+  position: fixed;
+  display: flex;
+  transition: .2s ease-out;
+  align-content: center;
+  justify-content: center;
+}
+
+.dot {
+  position: fixed;
+  width: 10px;
+  height: 10px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: var(--colorHighlight);
+  border-radius: 20px;
+  z-index: 1;
+
+}
+
+.cursor {
+  overflow: visible;
+  justify-self: center;
+  align-self: center;
+  position: fixed;
+  z-index: 1;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  background-color: var(--colorHighlight);
+  filter: blur(60px);
+  color: transparent;
+}
+
 .highlight {
   color: var(--colorHighlight);
 }
+
+/* .easter__egg {
+  position: relative;
+  z-index: 999;
+} */
 
 @media only screen and (min-width: 360px) {
 
