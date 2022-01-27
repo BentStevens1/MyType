@@ -9,7 +9,7 @@
 <section class= "introduction">
   <div class= "introduction__container">
     <h1 class= "intro__title-mobile">Hi, i'm William Caslon!</h1>
-    <img class= "img__william" src="./assets/images/william.png" alt="William-Caslon">
+    <img class= "img__william" src="<?php echo $img_william ?>" alt="William-Caslon">
     <div class= "intro__text-container">
       <h1 class= "intro__title-desktop">Hi, i'm William Caslon!</h1>
       <p class= "body__text intro__text"> I am the creator of the legendary typeface Caslon. But I will tell you more about that later. Like every story my story starts at the beginning…</p>
@@ -33,7 +33,7 @@
 
   <div class= "adventure__container">
     <div>
-      <img class= "img__guns" src="./assets/images/guns.png" alt="">
+      <img class= "img__guns" src="<?php echo $img_guns ?>" alt="">
     </div>
 
     <div class= "adventure__text">
@@ -61,11 +61,11 @@
   </div>
 
   <div class= "type__punches">
-    <img class= "type__punch type__punch-a" src="./assets/images/type_punches/a.png" alt="typepunch_a">
-    <img class= "type__punch type__punch-b" src="./assets/images/type_punches/b.png" alt="typepunch_b">
-    <img class= "type__punch type__punch-c" src="./assets/images/type_punches/c.png" alt="typepunch_c">
-    <img class= "type__punch type__punch-e" src="./assets/images/type_punches/e.png" alt="typepunch_e">
-    <img class= "type__punch type__punch-d" src="./assets/images/type_punches/d.png" alt="typepunch_d">
+    <img class= "type__punch type__punch-a" src="<?php echo $typepunch_a ?>" alt="typepunch_a">
+    <img class= "type__punch type__punch-b" src="<?php echo $typepunch_b ?>" alt="typepunch_b">
+    <img class= "type__punch type__punch-c" src="<?php echo $typepunch_c ?>" alt="typepunch_c">
+    <img class= "type__punch type__punch-e" src="<?php echo $typepunch_e ?>" alt="typepunch_e">
+    <img class= "type__punch type__punch-d" src="<?php echo $typepunch_d ?>" alt="typepunch_d">
   </div>
 </section>
 
@@ -77,8 +77,8 @@
   </div>
 
   <div class= "shelf__container">
-    <img class= "img__shelf-l" src="./assets/images/shelf-left.png" alt="shelf-left">
-    <img class= "img__shelf-r"src="./assets/images/shelf-right.png" alt="shelf-right">
+    <img class= "img__shelf-l" src="<?php echo $shelf_l ?>" alt="shelf-left">
+    <img class= "img__shelf-r"src="<?php echo $shelf_r ?>" alt="shelf-right">
   </div>
 </section>
 
@@ -143,7 +143,7 @@
   </div>
 
   <div class= "img__shapes-container">
-    <img class= "img__shapes" src="./assets/images/shapes.png" alt="shapes">
+    <img class= "img__shapes" src="<?php echo $img_shapes ?>" alt="shapes">
   </div>
 </section>
 
@@ -156,22 +156,22 @@
 <section>
   <article class= "hidden-dektop">
     <div>
-      <img class= "circle" src="./assets/images/characteristics_mobile/v.png" alt="circle-v">
+      <img class= "circle" src="<?php echo $circle_v ?>" alt="circle-v">
       <p class= "body__text characteristic__text">There is a greater contrast between the <span class= "highlight">thin and thick strokes</span>, and that's why they are generally speaking sharper in appearance. </p>
     </div>
 
     <div>
-      <img class= "circle" src="./assets/images/characteristics_mobile/o.png" alt="circle-o">
+      <img class= "circle" src="<?php echo $circle_o ?>" alt="circle-o">
       <p class= "body__text characteristic__text">Another major characteristic is the upright stress of the letterforms. Old-style typefaces have a more <span class= "highlight">upright position</span>.</p>
     </div>
 
     <div>
-      <img class= "circle" src="./assets/images/characteristics_mobile/d.png" alt="circle-d">
+      <img class= "circle" src="<?php echo $circle_d ?>" alt="circle-d">
       <p class= "body__text characteristic__text">Perhaps the most notable characteristic is that the ascenders have a <span class= "highlight">wedged shape</span>. </p>
     </div>
 
     <div>
-      <img class= "circle" src="./assets/images/characteristics_mobile/e.png" alt="circle-e">
+      <img class= "circle" src="<?php echo $circle_e ?>" alt="circle-e">
       <p class= "body__text characteristic__text">The <span class= "highlight">horizontal crossbars</span>, that you can see by the “e” for example, are also typical for Old-style typefaces. This is something that is not the case with the Venetian typefaces. That is why i don't like them so much. I hate them frankly.</p>
     </div>
 
@@ -179,7 +179,7 @@
 
   <article class= "hidden-mobile">
 
-    <img class= "img__characteristics" src="./assets/images/characteristics.png" alt="characteristics-img">
+    <img class= "img__characteristics" src="<?php echo $img_characteristics ?>" alt="characteristics-img">
 
     <div class= "characteristics__words">
       <p class= "characteristics__word" >wedged shape</p>
