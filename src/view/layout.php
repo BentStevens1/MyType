@@ -9,6 +9,10 @@
   <link rel="stylesheet" href="https://use.typekit.net/apa8yeh.css">
 </head>
 <body>
+    <div class="page-wrapper">
+      <div class="dot"></div>
+      <div class="cursor"></div>
+  </div>
   <div class="container">
       <header></header>
       <?php echo $content;?>
