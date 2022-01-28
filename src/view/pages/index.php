@@ -1,9 +1,10 @@
 <section class="header">
-  <div>
-    <h1 class= "header__title">The Story of Caslon</h1>
-    <p class= "header__text">Discover the history of one of the most iconic typefaces of all time. Told by William Caslon himself. The founder and creator of the Caslon typeface, a serif font with a rich history.</p>
+  <div class= "effe">
+    <h1 class= "header__title anim-typewriter">The Story</h1>
+    <h1 class= "header__title anim-typewriter-2">of Caslon</h1>
+    <p class= "header__text anim-1 gs_reveal">Discover the history of one of the most iconic typefaces of all time. Told by William Caslon himself. The founder and creator of the Caslon typeface, a serif font with a rich history.</p>
   </div>
-  <p class= "header__slanted">presented by Slanted Magazine</p>
+  <p class= "header__slanted anim-2 gs_reveal">presented by Slanted Magazine</p>
 </section>
 
 <section class= "introduction">
