@@ -99,8 +99,8 @@
       <p class= "specimen__text body__text-padding">I issued my first official specimen sheet of the typeface in 1734 and exhibited the roman and italic types in 14 different sizes. The Caslon typeface eventually spread <span class= "highlight">all over Europe and the American colonies</span>. It became so popular that the expression “When in doubt, use Caslon” came about. I am really proud of that. </p>
     </div>
 
-    <div>
-      <form class= "anim-3 gs_reveal" action="">
+    <div id="form">
+      <form class= "anim-3 gs_reveal" action="index.php#form"  method="GET">
         <label for="input" class= "title__specimen">Make your own specimen sheet!</label><br>
         <input type="text" id="input" name="input" class= "input__field">
         <div>
@@ -111,21 +111,21 @@
       </form>
     </div>
 
-    <article class= "specimen__interaction">
+    <article class= "specimen__interaction" id="specimen__interaction">
       <h2 class= "specimen__description specimen__regular">caslon regular</h2>
       <div>
-        <p class= "specimen__lowercase specimen__regular">abcdefghjkno</p>
-        <p class= "specimen__uppercase specimen__regular">ABDEGHJM</p>
+        <p class= "specimen__lowercase specimen__regular"><?php  echo $result_lower?></p>
+        <p class= "specimen__uppercase specimen__regular"><?php  echo $result_upper ?></p>
       </div>
        <h2 class= "specimen__description specimen__italic">caslon italic</h2>
       <div>
-        <p class= "specimen__lowercase specimen__italic">abcdefghjkno</p>
-        <p class= "specimen__uppercase specimen__italic">ABDEGHJ</p>
+        <p class= "specimen__lowercase specimen__italic"><?php  echo $result_lower ?></p>
+        <p class= "specimen__uppercase specimen__italic"><?php  echo $result_upper ?></p>
       </div>
       <h2 class= "specimen__description specimen__bold">caslon bold</h2>
       <div>
-        <p class= "specimen__lowercase specimen__bold">abcdefghjkno</p>
-        <p class= "specimen__uppercase specimen__bold">ABDEGHJ</p>
+        <p class= "specimen__lowercase specimen__bold"><?php  echo $result_lower ?></p>
+        <p class= "specimen__uppercase specimen__bold"><?php  echo $result_upper ?></p>
       </div>
     </article>
 
