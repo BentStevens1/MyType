@@ -645,6 +645,11 @@ form {
   font-style: normal;
 }
 
+.highlighted__red {
+  color: #ff4445;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 450px) {
 
   .body__text {

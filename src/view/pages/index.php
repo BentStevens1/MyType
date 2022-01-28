@@ -206,7 +206,7 @@
   <article class= "slanted__outro anim-1 gs_reveal">
     <h1 class= "slanted__title">This was the story of Caslon</h1>
     <h2 class= "slanted__subtitle">Liked this experience?</h2>
-    <p class= "slanted__text">This is a series where we bring some legendary fonts into focus. Every week we release a new immersive experience that brings you the rich typographical history and the fascinating designers of a certain typeface. Slanted inspires. </p>
+    <p class= "slanted__text">This is a series where we bring some legendary fonts into focus. Every week we release a new immersive experience that brings you the rich typographical history and the fascinating designers of a certain typeface. <a class="highlighted__red" href="https://www.slanted.de/"> Slanted<a> inspires. </p>
     <a class= "slanted__button" href="https://www.slanted.de/shop">discover our magazines</a>
   </article>
 
