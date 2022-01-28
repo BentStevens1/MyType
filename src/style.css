@@ -529,6 +529,122 @@ form {
   visibility: hidden;
 }
 
+.part__6 {
+  margin-bottom: 15rem;
+}
+
+.slanted__part {
+  overflow: hidden;
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+}
+
+.slanted__outro {
+  color: black;
+  font-family: var(--font);
+  margin-bottom: 4rem;
+}
+
+.slanted__title {
+  font-size: 2rem;
+  max-width: 35rem;
+  line-height: 2rem;
+  padding-left: 2.5rem;
+  padding-top: 2.5rem;
+  margin-bottom: 5rem;
+}
+
+.slanted__subtitle {
+  font-size: 1.2rem;
+  padding-left: 2.5rem;
+  font-style: italic;
+  margin-bottom: 3rem;
+}
+
+.slanted__text {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  font-size: 1rem;
+  line-height: 2rem;
+  max-width: 43rem;
+  margin-bottom: 3rem;
+}
+
+.slanted__button {
+  margin-left: 2.5rem;
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  text-align: center;
+  border: solid black 1px;
+  text-decoration: none;
+  color: black;
+  opacity: 80%;
+}
+
+.slanted__button:hover {
+  text-align: center;
+  border: solid black 1px;
+  text-decoration: none;
+  color: white;
+  background-color: #ff4445;
+}
+
+.selected__typefaces {
+  position: relative;
+  font-family: var(--font);
+  font-size: .8rem;
+  display: flex;
+  flex-flow: column;
+  align-content: space-between;
+  background-color: black;
+  font-style: italic;
+  z-index: 2;
+}
+
+.typefaces__title {
+  font-size: 1.8rem;
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+.typeface__container {
+  display: flex;
+  flex-flow: row;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: rgb(44, 44, 44) solid 1px;
+  background-color: black;
+
+}
+
+.typeface__container:hover {
+  background-color: #ff4445;
+}
+
+.typeface__text {
+  display: flex;
+  flex-flow: column;
+  padding-left: 1.5rem;
+}
+
+.typefaces__img {
+  max-width: 8rem;
+  padding-left: 1.5rem;
+}
+
+.typeface__title {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.typeface__state {
+  margin-top: 3rem;
+  font-style: normal;
+}
+
 @media only screen and (min-width: 450px) {
 
   .body__text {
@@ -920,6 +1036,38 @@ form {
     border-right: solid white 1px;
   }
 
+  .slanted__part {
+    flex-flow: row;
+    justify-content: space-between;
+  }
+
+  .slanted__title {
+    max-width: 20rem;
+    margin-bottom: 3rem;
+  }
+
+  .slanted__text {
+    max-width: 25rem;
+  }
+
+  .typeface__container {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .typefaces__title {
+    max-width: 20rem;
+  }
+
+  .typeface__text {
+    display: flex;
+    flex-flow: column;
+    padding-left: 1.5rem;
+  }
+
+  .typeface__title {
+    font-size: 1rem;
+  }
 }
 
 @media only screen and (min-width: 900px) {
@@ -945,6 +1093,11 @@ form {
   .img__shelf-r {
     margin-right: -9rem;
   }
+
+  .slanted__text {
+    max-width: 45rem;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -1265,6 +1418,55 @@ form {
     width: 100%;
     max-width: 35rem;
     margin-right: -13rem;
+  }
+
+  .part__6 {
+    margin-bottom: 30rem;
+  }
+
+  .slanted__title {
+    font-size: 3.5rem;
+    max-width: 35rem;
+    line-height: 4rem;
+  }
+
+  .slanted__subtitle {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+
+  .slanted__text {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    max-width: 43rem;
+    margin-bottom: 5rem;
+  }
+
+  .slanted__button {
+    padding: .5rem 4rem;
+    font-size: 1.2rem;
+    border: solid black 1px;
+  }
+
+  .selected__typefaces {
+    width: 35vw;
+  }
+
+  .typefaces__title {
+    max-width: 50rem;
+  }
+
+  .typeface__container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .typefaces__img {
+    max-width: 8rem;
+  }
+
+  .typeface__title {
+    font-size: 1.3rem;
   }
 }
 
