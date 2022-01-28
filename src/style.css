@@ -100,6 +100,9 @@ html, body {
   font-size: 3.75rem;
   max-width: 18rem;
   margin: auto;
+}
+
+.effe {
   padding-top: 10rem;
 }
 
@@ -117,7 +120,6 @@ html, body {
 .header__slanted {
   font-size: 1rem;
   text-align: center;
-  padding-top: 1.5rem;
   margin: auto;
   font-family: var(--font);
   font-style: italic;
@@ -761,10 +763,15 @@ form {
   .header__title {
     font-size: 8rem;
     max-width: 40rem;
-    padding-top: 5rem;
+    padding-top: 1rem;
     padding-left: 4rem;
     margin: 0;
-    text-align: start;
+    text-align-last: start;
+
+    border-right: 2px solid rgba(255, 255, 255, 0);
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: content-box;
   }
 
   .header__text {
@@ -778,13 +785,14 @@ form {
   }
 
   .header__slanted {
-    padding-top: 4rem;
+    margin-top: 4rem;
     text-align: right;
     margin-right: 0;
     padding-right: 4rem;
     max-width: 15rem;
     display: flex;
     justify-self: flex-end;
+    line-height: 1.5rem;
   }
 
   .introduction__container {
@@ -1145,7 +1153,7 @@ form {
   }
 
   .header__title {
-    padding-top: 7rem;
+    padding-top: 1rem;
     padding-left: 7rem;
     font-size: 10rem;
     max-width: 50rem;
