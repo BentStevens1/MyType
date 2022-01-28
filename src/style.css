@@ -439,14 +439,14 @@ form {
 }
 
 .specimen__lowercase {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: lowercase;
   text-align: center;
   padding-bottom: .5rem;
 }
 
 .specimen__uppercase {
-  font-size: 3rem;
+  font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
 }
@@ -549,6 +549,14 @@ form {
 
   .intro__title-mobile {
     font-size: 2rem;
+  }
+
+  .specimen__lowercase {
+    font-size: 3rem;
+  }
+
+  .specimen__uppercase {
+    font-size: 3rem;
   }
 
 }
