@@ -2,12 +2,18 @@ import gsap from 'gsap';
 
 // get other plugins:
 import ScrollTrigger from 'gsap/ScrollTrigger';
+import {SteppedEase} from 'gsap';
 
 export const init = () => {
   console.log('start executing this JavaScript');
   changeCursor();
+  gsap.registerPlugin(ScrollTrigger);
+  ScrollTrigger.matchMedia({
+    '(min-width: 700px)': function() {
+      animateHeader();
+    }
+  });
   animations();
-
 };
 
 
@@ -16,13 +22,58 @@ const changeCursor = () => {
   const cursor = document.querySelector('.dot');
 
   const editCursor = function editCursor(event) {
-    wrapper.style.left = event.clientX + 'px';
-    wrapper.style.top = event.clientY + 'px';
-    cursor.style.top = event.clientY + 'px';
-    cursor.style.left = event.clientX + 'px';
+    wrapper.style.left = `${event.clientX }` + `px`;
+    wrapper.style.top = `${event.clientY }` + `px`;
+    cursor.style.top = `${event.clientY }` + `px`;
+    cursor.style.left = `${event.clientX }` + `px`;
   };
   window.addEventListener('mousemove', editCursor);
 };
+
+
+const animateHeader = () => {
+  const tl = gsap.timeline({
+    paused: true
+  });
+  // letter animation
+  const part1 = gsap.fromTo('.anim-typewriter', 1.5, {
+    width: '0',
+  }, {
+    width: '50rem', /* same as CSS .line-1 width */
+    ease: SteppedEase.config(8)
+  }, 0);
+  // text cursor animation
+  gsap.fromTo('.anim-typewriter', .5, {
+    'border-right-color': 'rgba(255,255,255,75)'
+  }, {
+    'border-right-color': 'rgba(255,255,255,0)',
+    repeat: 2,
+    ease: SteppedEase.config(6)
+  }, 0);
+
+  tl.add(part1);
+
+  const part2 = gsap.fromTo('.anim-typewriter-2', 1.5, {
+    width: '0',
+  }, {
+    width: '50rem', /* same as CSS .line-1 width */
+    ease: SteppedEase.config(9)
+  }, 0);
+  // text cursor animation
+  gsap.fromTo('.anim-typewriter-2', .6, {
+    'border-right-color': 'rgba(255,255,255,0)'
+  }, {
+    'border-right-color': 'white',
+    repeat: - 1,
+    ease: SteppedEase.config(7)
+  }, 1.2);
+
+  tl.add(part2);
+
+  tl.play();
+};
+
+
 
 const animations = () => {
   gsap.registerPlugin(ScrollTrigger);
