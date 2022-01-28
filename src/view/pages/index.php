@@ -153,7 +153,7 @@
   <p class= "characteristics__text anim-3 gs_reveal">The Caslon typeface is extremely <span class= "highlight">legible, yet graceful and classic</span>. That is why a lot of printers like to use it for printed communication pieces. I designed the typeface with the <span class= "highlight">Old-style typeface</span> characteristics in mind. I like the look of the Old-style typefaces because of their greater refinement.</p>
 </section>
 
-<section>
+<section class= "part__6">
   <article class= "hidden-dektop">
     <div>
       <img class= "circle anim-1 gs_reveal" src="<?php echo $circle_v ?>" alt="circle-v">
@@ -202,13 +202,54 @@
   </article>
 </section>
 
+<section class= "slanted__part">
+  <article class= "slanted__outro anim-1 gs_reveal">
+    <h1 class= "slanted__title">This was the story of Caslon</h1>
+    <h2 class= "slanted__subtitle">Liked this experience?</h2>
+    <p class= "slanted__text">This is a series where we bring some legendary fonts into focus. Every week we release a new immersive experience that brings you the rich typographical history and the fascinating designers of a certain typeface. Slanted inspires. </p>
+    <a class= "slanted__button" href="https://www.slanted.de/shop">discover our magazines</a>
+  </article>
 
-<!-- <section>
-  <h1 class= "title">This was the story of Caslon</h1>
-  <h2>Liked this experience?</h2>
-  <p class= "body__text">This is a series where we bring some legendary fonts into focus. Every week we release a new immersive experience that brings you the rich typographical history and the fascinating designers of a certain typeface. Brought to you by Slanted.</p>
-  <a href="">more info about the selected typfaces </a>
-</section> -->
+  <article class= "selected__typefaces anim-2 gs_reveal">
+    <h2 class= "typefaces__title">The selected typfaces</h2>
+
+    <div class= "typeface__container">
+      <img class= "typefaces__img" src="./assets/images/typefaces/futura.png" alt="futura">
+      <div class= "typeface__text">
+        <h3 class= "typeface__title">Futura</h3>
+        <p>03.01.2022</p>
+        <p class= "typeface__state">Online</p>
+      </div>
+    </div>
+
+    <div class= "typeface__container">
+      <img class= "typefaces__img" src="./assets/images/typefaces/clarendon.png" alt="claredon">
+      <div class= "typeface__text">
+        <h3 class= "typeface__title">Clarendon</h3>
+        <p>10.01.2022</p>
+        <p class= "typeface__state">Online</p>
+      </div>
+    </div>
+
+    <div class= "typeface__container">
+      <img class= "typefaces__img" src="./assets/images/typefaces/bembo.png" alt="bembo">
+      <div class= "typeface__text">
+        <h3 class= "typeface__title">Bembo</h3>
+        <p>17.01.2022</p>
+        <p class= "typeface__state">Online</p>
+      </div>
+    </div>
+
+    <div class= "typeface__container">
+      <img class= "typefaces__img" src="./assets/images/typefaces/bodoni.png" alt="bodoni">
+      <div class= "typeface__text">
+        <h3 class= "typeface__title">Bodoni</h3>
+        <p>24.01.2022</p>
+        <p class= "typeface__state">Coming soon...</p>
+      </div>
+    </div>
+  </article>
+</section>
 
 
 
