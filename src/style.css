@@ -217,6 +217,7 @@ html, body {
 }
 
 .part__2 {
+  padding-bottom: 10rem;
   margin-bottom: 10rem;
   padding-top: 2rem;
   overflow: hidden;
