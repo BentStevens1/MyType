@@ -6,7 +6,7 @@
     <p class= "header__text anim-1 gs_reveal">Discover the history of one of the most iconic typefaces of all time. Told by William Caslon himself. The founder and creator of the Caslon typeface, a serif font with a rich history.</p>
   </div>
   <div>
-    <img class= "easter__egg hidden_2" src="./assets/images/hidden/hidden-1.png" alt="hidden-2">
+    <img class= "easter__egg hidden_2" src="<?php echo $hidden_img ?>" alt="hidden-2">
   </div>
 
   </article>
@@ -20,7 +20,7 @@
     <img class= "img__william anim-2 gs_reveal" src="<?php echo $img_william ?>" alt="William-Caslon">
     <div class= "intro__text-container">
       <h1 class= "intro__title-desktop anim-1 gs_reveal">Hi, i'm William Caslon!</h1>
-      <p class= "body__text intro__text anim-1 gs_reveal"> I am the creator of the legendary typeface Caslon. But I will tell you more about that later. Like every story my story starts at the beginning…</p>
+      <p class= "body__text intro__text anim-1 gs_reveal"> I am the <span class= "highlight">creator </span> of the legendary typeface Caslon. But I will tell you more about that later. Like every story my story starts at the beginning…</p>
     </div>
   </div>
 </section>
@@ -31,7 +31,7 @@
   <div>
     <h2 class= "chapter chapter__1 ">Chapter 1</h2>
     <h1 class= "title title__life anim-1 gs_reveal">The simple life</h1>
-    <p class= "body__text anim-1 gs_reveal">It was a cold morning in the year 1692. I was born in a small village named <span class= "highlight">Cradley, Worcestershire </span>. I had a hard working family and from early on I was trained to be an engraver. Engraving is one of the oldest and most important techniques when producing images on paper in artistic printmaking. It was a simple life. Around the age of seventeen, I became an apprentice to a local <span class= "highlight">engraver of gunlocks and barrels</span>. That's where I started to learn all about the ins and out of metalwork.</p>
+    <p class= "body__text anim-1 gs_reveal">It was a cold morning in the year 1692. I was born in a small village named <span class= "highlight">Cradley, Worcestershire</span>. I had a hard working family and from early on I was trained to be an engraver. Engraving is one of the oldest and most important techniques when producing images on paper in artistic printmaking. It was a simple life. Around the age of seventeen, I became an apprentice to a local <span class= "highlight">engraver of gunlocks and barrels</span>. That's where I started to learn all about the ins and out of metalwork.</p>
   </div>
 </section>
 
@@ -212,7 +212,7 @@
     </div>
   </article>
   <div>
-    <img class= "easter__egg hidden_1" src="./assets/images/hidden/hidden.png" alt="hidden-1">
+    <img class= "easter__egg hidden_1" src="<?php echo $hidden_img2 ?>" alt="hidden-1">
   </div>
 </section>
 
@@ -228,7 +228,7 @@
     <h2 class= "typefaces__title">The selected typfaces</h2>
 
     <div class= "typeface__container">
-      <img class= "typefaces__img" src="./assets/images/typefaces/futura.png" alt="futura">
+      <img class= "typefaces__img" src="<?php echo $img_futura ?>" alt="futura">
       <div class= "typeface__text">
         <h3 class= "typeface__title">Futura</h3>
         <p>03.01.2022</p>
@@ -237,7 +237,7 @@
     </div>
 
     <div class= "typeface__container">
-      <img class= "typefaces__img" src="./assets/images/typefaces/clarendon.png" alt="claredon">
+      <img class= "typefaces__img" src="<?php echo $img_clarendon ?>" alt="claredon">
       <div class= "typeface__text">
         <h3 class= "typeface__title">Clarendon</h3>
         <p>10.01.2022</p>
@@ -246,7 +246,7 @@
     </div>
 
     <div class= "typeface__container">
-      <img class= "typefaces__img" src="./assets/images/typefaces/bembo.png" alt="bembo">
+      <img class= "typefaces__img" src="<?php echo $img_bembo ?>" alt="bembo">
       <div class= "typeface__text">
         <h3 class= "typeface__title">Bembo</h3>
         <p>17.01.2022</p>
@@ -255,7 +255,7 @@
     </div>
 
     <div class= "typeface__container">
-      <img class= "typefaces__img" src="./assets/images/typefaces/bodoni.png" alt="bodoni">
+      <img class= "typefaces__img" src="<?php echo $img_bodoni ?>" alt="bodoni">
       <div class= "typeface__text">
         <h3 class= "typeface__title">Bodoni</h3>
         <p>24.01.2022</p>
