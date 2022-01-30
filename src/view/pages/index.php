@@ -1,9 +1,16 @@
 <section class="header">
-  <div class= "effe">
+  <article class ="effe">
+    <div class= "header__container">
     <h1 class= "header__title anim-typewriter">The Story</h1>
     <h1 class= "header__title anim-typewriter-2">of Caslon</h1>
     <p class= "header__text anim-1 gs_reveal">Discover the history of one of the most iconic typefaces of all time. Told by William Caslon himself. The founder and creator of the Caslon typeface, a serif font with a rich history.</p>
   </div>
+  <div>
+    <img class= "easter__egg hidden_2" src="./assets/images/hidden/hidden-1.png" alt="hidden-2">
+  </div>
+
+  </article>
+
   <p class= "header__slanted anim-2 gs_reveal">presented by Slanted Magazine</p>
 </section>
 
@@ -201,6 +208,9 @@
       </div>
     </div>
   </article>
+  <div>
+    <img class= "easter__egg hidden_1" src="./assets/images/hidden/hidden.png" alt="hidden-1">
+  </div>
 </section>
 
 <section class= "slanted__part">
