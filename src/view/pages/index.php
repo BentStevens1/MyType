@@ -62,11 +62,11 @@
   </div>
 
   <div class= "type__punches">
-    <img class= "type__punch type__punch-a" src="<?php echo $typepunch_a ?>" alt="typepunch_a">
-    <img class= "type__punch type__punch-b" src="<?php echo $typepunch_b ?>" alt="typepunch_b">
-    <img class= "type__punch type__punch-c" src="<?php echo $typepunch_c ?>" alt="typepunch_c">
-    <img class= "type__punch type__punch-e" src="<?php echo $typepunch_e ?>" alt="typepunch_e">
-    <img class= "type__punch type__punch-d" src="<?php echo $typepunch_d ?>" alt="typepunch_d">
+    <img class= "type__punch type__punch-a rotate gs_reveal" src="<?php echo $typepunch_a ?>" alt="typepunch_a">
+    <img class= "type__punch type__punch-b rotate-1 gs_reveal" src="<?php echo $typepunch_b ?>" alt="typepunch_b">
+    <img class= "type__punch type__punch-c rotate gs_reveal" src="<?php echo $typepunch_c ?>" alt="typepunch_c">
+    <img class= "type__punch type__punch-e rotate-1 gs_reveal" src="<?php echo $typepunch_e ?>" alt="typepunch_e">
+    <img class= "type__punch type__punch-d rotate-3 gs_reveal" src="<?php echo $typepunch_d ?>" alt="typepunch_d">
   </div>
 </section>
 
