@@ -73,8 +73,6 @@ const animateHeader = () => {
   tl.play();
 };
 
-
-
 const animations = () => {
   gsap.registerPlugin(ScrollTrigger);
   ScrollTrigger.matchMedia({
@@ -142,6 +140,39 @@ const animations = () => {
             y: 0,
             autoAlpha: 1,
             ease: 'expo',
+          });
+        } else if (elem.classList.contains('rotate')) {
+          x = 200;
+          y = 0;
+          gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0, rotation: 0}, {
+            duration: 2,
+            x: 0,
+            y: 0,
+            autoAlpha: 1,
+            ease: 'expo',
+            rotation: - 20
+          });
+        } else if (elem.classList.contains('rotate-1')) {
+          x = - 100;
+          y = 0;
+          gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0, rotation: 0}, {
+            duration: 2,
+            x: 0,
+            y: 0,
+            autoAlpha: 1,
+            ease: 'expo',
+            rotation: 20
+          });
+        } else if (elem.classList.contains('rotate-3')) {
+          x = 100;
+          y = 10;
+          gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0, rotation: 0}, {
+            duration: 2,
+            x: 0,
+            y: 0,
+            autoAlpha: 1,
+            ease: 'expo',
+            rotation: 20
           });
         }
       };
@@ -321,6 +352,39 @@ const animations = () => {
             y: 0,
             autoAlpha: 1,
             ease: 'expo',
+          });
+        } else if (elem.classList.contains('rotate')) {
+          x = 100;
+          y = 0;
+          gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0, rotation: 0}, {
+            duration: 2,
+            x: 0,
+            y: 0,
+            autoAlpha: 1,
+            ease: 'expo',
+            rotation: - 10
+          });
+        } else if (elem.classList.contains('rotate-1')) {
+          x = - 100;
+          y = 0;
+          gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0, rotation: 0}, {
+            duration: 2,
+            x: 0,
+            y: 0,
+            autoAlpha: 1,
+            ease: 'expo',
+            rotation: 10
+          });
+        } else if (elem.classList.contains('rotate-3')) {
+          x = 50;
+          y = 0;
+          gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0, rotation: 0}, {
+            duration: 2,
+            x: 0,
+            y: 0,
+            autoAlpha: 1,
+            ease: 'expo',
+            rotation: 10
           });
         }
       };
