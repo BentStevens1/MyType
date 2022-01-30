@@ -55,7 +55,7 @@
 </section>
 
 <section class= "quote anim-3 gs_reveal">
-  <blockquote class= "title quote__text">I fell in love with making type punches and was very good at it, if I say so myself. </blockquote>
+  <blockquote class= "title quote__text">" I fell in love with making type punches and was very good at it, if I say so myself. "</blockquote>
   <img src="" alt="">
   <img src="" alt="">
 </section>
@@ -64,7 +64,7 @@
   <div class= "chapter__2-container anim-3 gs_reveal">
     <h2 class= "chapter chapter__2">Chapter 2</h2>
     <h1 class= "title title__love">My first love</h1>
-    <p class= "body__text-center body__text-padding">I fell in love with making <span class= "highlight">type punches</span>. In the years that followed, I took on countless of other jobs for companies that had to do with letter engraving. In 1720 <span class= "highlight">William Bowyer</span> asked me to design an English Arabic for Christian publications to be distributed in the Middle East.</p>
+    <p class= "body__text-center body__text-padding">I began to make a lot of <span class= "highlight">type punches</span>. In the years that followed, I took on countless of other jobs for companies that had to do with letter engraving. In 1720 <span class= "highlight">William Bowyer</span> asked me to design an English Arabic for Christian publications to be distributed in the Middle East.</p>
     <p class= "body__text-center body__text-padding">The typeface is now <span class= "highlight">used in psalter and the New Testament</span>. William saw the passion in me and we became good friends. Through jobs like this, the word spread about my type engraving.</p>
   </div>
 
@@ -143,16 +143,19 @@
 <section class= "part__4">
   <h2 class= "chapter chapter__4 anim-1 gs_reveal">Chapter 4</h2>
   <h1 class= "title title__world anim-1 gs_reveal">Changing the world</h1>
+  <p class= "text__world body__text body__text-padding anim-1 gs_reveal">Caslon is a <span class= "highlight">versatile typeface</span> that can be found in a wide variety of places. Places where history has been written. My typeface was considered the <span class= "highlight">font of choice for royalty and politics</span>.</p>
+  <p class= "chapter__4-middle body__text body__text-padding anim-1 gs_reveal">I surpassed all of my competitors in no time and became the exclusive type foundry <span class= "highlight">for the King's printers</span>. Many great works of literature and documents of historical importance used my Caslon typeface.</p>
+  <p class= "body__text arrow anim-1 gs_reveal"> Hover for magic!</p>
+  <p class= "text__world body__text body__text-padding anim-1 gs_reveal declaration">It was used in the first printed version of <span class= "highlight">the United States Declaration of Independence</span>. And George Bernard Shaw asked specifically that all his plays were set in the Caslon typeface. I never met George, but he seems like a nice guy.</p>
 
-  <div>
-    <p class= "text__world body__text body__text-padding anim-1 gs_reveal">Caslon is a <span class= "highlight">versatile typeface</span> that can be found in a wide variety of places. Places where history has been written. My typeface was considered the <span class= "highlight">font of choice for royalty and politics</span>.</p>
-    <p class= "chapter__4-middle body__text body__text-padding anim-1 gs_reveal">I surpassed all of my competitors in no time and became the exclusive type foundry <span class= "highlight">for the King's printers</span>. Many great works of literature and documents of historical importance used my Caslon typeface.</p>
-    <p class= "text__world body__text body__text-padding anim-1 gs_reveal">It was used in the first printed version of <span class= "highlight">the United States Declaration of Independence</span>. And George Bernard Shaw asked specifically that all his plays were set in the Caslon typeface. I never met George, but he seems like a nice guy.</p>
-  </div>
+  <div class= "background__container"></div>
+
 
   <div class= "img__shapes-container">
     <img class= "img__shapes anim-2 gs_reveal" src="<?php echo $img_shapes ?>" alt="shapes">
   </div>
+
+  <div class= "background__container"></div>
 </section>
 
 <section class= "part__5">
