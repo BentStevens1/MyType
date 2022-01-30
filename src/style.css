@@ -21,6 +21,7 @@ html, body {
   background-color: var(--colorBackground);
   color: var(--colorText);
   max-width: 100%;
+  cursor: none;
 }
 
 ::selection {
@@ -1097,10 +1098,6 @@ form {
 
 @media only screen and (min-width: 900px) {
 
-  html, body {
-    cursor: none;
-  }
-
   .hidden-dektop {
     display: none;
     visibility: hidden;
@@ -1127,9 +1124,52 @@ form {
     max-width: 45rem;
   }
 
+  .declaration {
+    position: relative;
+    z-index: 99;
+  }
+
+  .background__container {
+    position: absolute;
+    background: transparent;
+    width: 100vw;
+    height: 100vh;
+    margin-top: -40rem;
+    opacity: 0;
+  }
+
+  .declaration:hover + .background__container {
+    background-image: url(./assets/images/declaration.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 95% 40%;
+    opacity: 100;
+    transition: 1s ease-in-out;
+    z-index: 1;
+  }
+
+  .arrow {
+    padding-bottom: 1rem;
+    font-size: .8rem;
+    color: rgb(250, 97, 26);
+    font-style: italic;
+  }
+
+  .arrow::after {
+    content: ' \21E3';
+  }
+
+  .arrow::before {
+    content: ' \21E3';
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
+
+  html, body {
+    cursor: none;
+  }
 
   .hidden_2 {
     visibility: visible;
@@ -1161,7 +1201,7 @@ form {
     border-width: 2px;
     border-color: #ff6534;
     border-radius: 20px;
-    z-index: 1;
+    z-index: 2;
   }
 
   .cursor {
